@@ -1,0 +1,21 @@
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item {
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.item::first-letter {
+    text-transform: uppercase;
+}
+
+.item:active {
+    background-color: rgb(114, 114, 252);
+}
